@@ -1,0 +1,87 @@
+
+
+#menusuperior{
+margin: 20px auto;
+background-color:#303030;
+padding:10px 25px 50px;
+    
+
+}
+#titulo-menusuperior{
+    color:white;
+    margin-left:100px;
+    margin:25px;
+   
+}
+#texto-menusuperior{
+    color: white;
+    margin-left: 100px;
+    margin: 25px;
+}
+
+*{
+ 
+  
+  font-family: 'Inter';
+}
+#menuinformacional{
+        background-color:#F9F9F9;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+        padding:10px 25px 50px;
+
+    }
+    .destaque{
+      font-weight: bolder;
+    }
+  #secao-img{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+  }
+  #titulo-img{
+    text-align: justify;
+    margin: 50px;
+
+  }
+  #forimg{
+    margin: 50px 25px 50px 100px;
+  }
+  #final{
+    background-color: #303030;
+    padding: 50px;
+    text-align: center;
+  }
+    #titulo-final{
+      color: white;
+      font-size: 25px;
+      margin: 10px;
+    }
+    input{
+      width: 300px;
+      height:40px;
+      background-color: #FFFFFF;
+      margin:15px;
+      border: 0px;
+      border-radius:5px;
+      padding-left:10px;
+    }
+    button{
+      background-color: #C07212;
+       height:40px;
+       width: 200px;
+       color: #FFFFFF;
+       border: 0px;
+      border-radius:5px;
+      font-weight:bolder;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color: #cc7f21;
+      color: white;
+      transform:translateY(-7px);
+      box-shadow: 0px 15px 20px #a86c2377 ;
+      transition-duration: 0,5s;
+    }
